@@ -1,6 +1,6 @@
 # AWS Multi-Account EC2 Instance Collector
 
-여러 AWS 계정의 EC2 인스턴스 정보를 동시에 조회하여 CSV 파일로 저장하는 Go 프로그램입니다.
+여러 AWS 계정의 EC2 인스턴스 정보를 동시에 조회하여 CSV 파일로 저장
 
 ## 기능
 
@@ -30,7 +30,7 @@ go get github.com/aws/aws-sdk-go-v2/service/sts
 
 ### 1. 계정 설정 파일 생성
 
-`accounts.json` 파일을 생성하고 조회할 AWS 계정 정보를 입력합니다:
+`accounts.json` 파일을 생성하고 조회할 AWS 계정 정보를 입력:
 
 ```json
 [
@@ -72,7 +72,7 @@ Account ID      Instance ID          Tag Name                       Instance Typ
 
 ## IAM 권한 설정
 
-대상 계정의 Role에 다음 권한이 필요합니다:
+대상 계정의 Role에 다음 권한이 필요:
 
 ```json
 {
